@@ -1,0 +1,118 @@
+.section-offers {
+  padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: none;
+  @media screen and (min-width:1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ececec;
+    
+  }
+
+}
+.section-title {
+  display: block;
+  @extend %list;
+
+  opacity: 0;
+  font-family: $primary-font;
+  color: $title-text-color;
+  font-size: 36px;
+  line-height: 1.31;
+  text-align: center;
+}
+.section-container {
+  @extend %list;
+  display: block;
+    align-items: inherit;
+    @media screen and (min-width:768px) {
+      display: flex;
+      flex-wrap: wrap; 
+      align-items: inherit;
+      
+     
+      
+    }
+  
+
+}
+.pictures-image {
+  width: 100%;
+  @extend %list;
+  @media screen and (min-width:768px) {
+    &:nth-child(1),
+    &:nth-child(2){
+      margin-bottom: 30px;
+    }
+    &:nth-child(2n + 1){
+      margin-right: 30px;
+    }
+    width: calc((100% - 30px) / 2);
+  }
+
+
+  @media screen and (max-width:767px){
+    &:not(:last-child) {
+      margin-bottom: 30px;}   
+}
+
+
+@media screen and (min-width:1200px){
+  &:not(:last-child) {
+ margin-right: 30px;}
+ width: calc((100% - 90px) / 4);
+}
+
+}
+  // @media screen and (max-width:767px) {
+  //   height: 120px;}
+  // justify-content: center;
+
+    
+  // }
+
+
+  
+  
+// @media screen and (max-width:1199px) {
+
+  
+// }
+
+.advantages {
+  display: flex;
+  // flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  // text-align: center;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-size: 70px;
+  background-color: $section-bgc-color;
+  
+}
+
+.section-caption {
+ @extend %block;
+ 
+  margin-bottom: 10px;
+  text-align: center;
+
+  color: $title-text-color;
+  font-family: $primary-font;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.text-caption {
+  @extend %list;
+
+  font-family: $primary-font;
+  color: $primary-text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;   
+}

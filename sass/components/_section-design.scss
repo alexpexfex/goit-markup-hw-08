@@ -1,0 +1,56 @@
+.section-design {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  @media screen and(max-width:1199px) {
+    display: none;
+    
+  }
+}
+.section-work {
+  display: block;
+  @extend %list;
+  margin-bottom: 50px;
+
+  color: $title-text-color;
+  font-size: 36px;
+  line-height: 1.31;
+  text-align: center;
+  font-family: $primary-font;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.container-team {
+  @extend %list;
+  display: flex;
+  justify-content: center;
+}
+
+.team-staff {
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.staff-img {
+  display: block;
+}
+.holder {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.section-text {
+  display: block;
+  padding: 27px 85px;
+  margin: 0;
+
+  color: $primary-bcg-color;
+  font-family: $primary-font;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+}

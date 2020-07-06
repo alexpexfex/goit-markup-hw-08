@@ -1,0 +1,26 @@
+.container-nav {
+  display: block;
+  @extend %block;
+  // display: flex;
+  // align-items: center;
+  // position: relative;
+  @media screen and (min-width:768px) and (max-width:1199px) {
+    display: flex;
+    align-items: baseline;
+
+  }
+  @media screen and (min-width:1200px) {
+    display: flex;
+    align-items: baseline;
+
+  }
+
+}
+.nav-main {
+  // @extend %block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
