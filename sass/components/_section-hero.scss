@@ -16,9 +16,8 @@
   background-position: center;
   background-size: cover;
       
-  @media screen and (min-divice-pixel-ratio: 1) and (min-width:480px), 
-    
-  screen and (-webkit-min-device-pixel-ratio: 1)and (min-width:480px) ,
+  @media  
+  screen and (-webkit-min-device-pixel-ratio: 1) and (min-width:480px),
   screen and (-o-min-device-pixel-ratio: 1) and (min-width:480px),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) { 
@@ -30,9 +29,8 @@
     ), url('../image/hero/Header-mob.jpg');
   }
 
-  @media screen and (min-divice-pixel-ratio:2 ) and (min-width:480px), 
-    
-  screen and (-webkit-min-device-pixel-ratio: 2)and (min-width:480px),
+  @media 
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:480px),
   screen and (-o-min-device-pixel-ratio: 2) and (min-width:480px),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) { 
@@ -44,9 +42,8 @@
     ), url('../image/hero/Header-mob@2x.jpg');
   }
   
-  @media screen and (min-divice-pixel-ratio: 1) and (min-width:768px), 
-    
-  screen and (-webkit-min-device-pixel-ratio: 1)and (min-width:768px),
+  @media 
+  screen and (-webkit-min-device-pixel-ratio: 1) and (min-width:768px),
   screen and (-o-min-device-pixel-ratio: 1) and (min-width:768px),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) { 
@@ -59,9 +56,8 @@
   }
 
     
-  @media screen and (min-divice-pixel-ratio: 2) and (min-width:768px), 
-    
-  screen and (-webkit-min-device-pixel-ratio: 2)and (min-width:768px) ,
+  @media  
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:768px),
   screen and (-o-min-device-pixel-ratio: 2) and (min-width:768px),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) { 
@@ -72,9 +68,8 @@
       rgba(47, 48, 58, 0.8)
     ), url('../image/hero/Header-tablet@2x.jpg');
   }
-  @media screen and (min-divice-pixel-ratio: 1) and (min-width:1200px), 
-    
-  screen and (-webkit-min-device-pixel-ratio: 1)and (min-width:1200px) ,
+  @media 
+  screen and (-webkit-min-device-pixel-ratio: 1) and (min-width:1200px),
   screen and (-o-min-device-pixel-ratio: 1) and (min-width:1200px),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) { 
@@ -86,9 +81,8 @@
     ), url('../image/hero/Header-desktop.jpg');
   }
 
-  @media screen and (min-divice-pixel-ratio: 2) and (min-width:1200px), 
-    
-  screen and (-webkit-min-device-pixel-ratio: 2)and (min-width:1200px) ,
+  @media  
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:1200px),
   screen and (-o-min-device-pixel-ratio: 2) and (min-width:1200px),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) { 
